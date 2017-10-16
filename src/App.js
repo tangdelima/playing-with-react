@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Clock from './Clock';
 
+import Calculator from './temperature/Calculator';
+
 class App extends Component {
   render() {
     return (
@@ -14,6 +16,7 @@ class App extends Component {
         <div id="clock-container" className="App-intro">
           Just got started.
           <Clock />
+          <Calculator />
         </div>
       </div>
     );
